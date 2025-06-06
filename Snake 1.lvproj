@@ -13,12 +13,21 @@
 		<Item Name="Documentation" Type="Folder" URL="../Documentation">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="MessageQueue" Type="Folder">
+			<Item Name="CreateMessageQueue.vi" Type="VI" URL="../MessageQueue/CreateMessageQueue.vi"/>
+			<Item Name="DequeueMessage.vi" Type="VI" URL="../MessageQueue/DequeueMessage.vi"/>
+			<Item Name="DestroyMessageQueues.vi" Type="VI" URL="../MessageQueue/DestroyMessageQueues.vi"/>
+			<Item Name="EnqueueMessage.vi" Type="VI" URL="../MessageQueue/EnqueueMessage.vi"/>
+			<Item Name="Message.ctl" Type="VI" URL="../MessageQueue/Message.ctl"/>
+			<Item Name="QueueRef.ctl" Type="VI" URL="../MessageQueue/QueueRef.ctl"/>
+		</Item>
 		<Item Name="TypeDef" Type="Folder">
 			<Item Name="display.ctl" Type="VI" URL="../TypeDef/display.ctl"/>
 			<Item Name="tiles-key.ctl" Type="VI" URL="../TypeDef/tiles-key.ctl"/>
 			<Item Name="tiles.ctl" Type="VI" URL="../TypeDef/tiles.ctl"/>
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
+		<Item Name="Play.vi" Type="VI" URL="../Play.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
