@@ -22,6 +22,7 @@
 				<Item Name="Message.ctl" Type="VI" URL="../Support/MessageQueue/Message.ctl"/>
 				<Item Name="QueueRef.ctl" Type="VI" URL="../Support/MessageQueue/QueueRef.ctl"/>
 			</Item>
+			<Item Name="MetronomeData.ctl" Type="VI" URL="../Support/MetronomeData.ctl"/>
 			<Item Name="TestMetronome.vi" Type="VI" URL="../Support/TestMetronome.vi"/>
 		</Item>
 		<Item Name="TypeDef" Type="Folder">
