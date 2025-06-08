@@ -14,14 +14,8 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Support" Type="Folder">
-			<Item Name="MessageQueue" Type="Folder">
-				<Item Name="CreateMessageQueue.vi" Type="VI" URL="../Support/MessageQueue/CreateMessageQueue.vi"/>
-				<Item Name="DequeueMessage.vi" Type="VI" URL="../Support/MessageQueue/DequeueMessage.vi"/>
-				<Item Name="DestroyMessageQueues.vi" Type="VI" URL="../Support/MessageQueue/DestroyMessageQueues.vi"/>
-				<Item Name="EnqueueMessage.vi" Type="VI" URL="../Support/MessageQueue/EnqueueMessage.vi"/>
-				<Item Name="Message.ctl" Type="VI" URL="../Support/MessageQueue/Message.ctl"/>
-				<Item Name="QueueRef.ctl" Type="VI" URL="../Support/MessageQueue/QueueRef.ctl"/>
-			</Item>
+			<Item Name="MessageQueue.lvlib" Type="Library" URL="../Support/MessageQueue/MessageQueue.lvlib"/>
+			<Item Name="Metronome.vi" Type="VI" URL="../Support/Metronome.vi"/>
 			<Item Name="MetronomeData.ctl" Type="VI" URL="../Support/MetronomeData.ctl"/>
 			<Item Name="TestMetronome.vi" Type="VI" URL="../Support/TestMetronome.vi"/>
 		</Item>
@@ -32,7 +26,11 @@
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="Play.vi" Type="VI" URL="../Play.vi"/>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+			</Item>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
