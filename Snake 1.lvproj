@@ -14,13 +14,16 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Support" Type="Folder">
+			<Item Name="CreateEventOnError.vi" Type="VI" URL="../Support/CreateEventOnError.vi"/>
 			<Item Name="MessageQueue.lvlib" Type="Library" URL="../Support/MessageQueue/MessageQueue.lvlib"/>
 			<Item Name="Metronome.vi" Type="VI" URL="../Support/Metronome.vi"/>
 			<Item Name="MetronomeData.ctl" Type="VI" URL="../Support/MetronomeData.ctl"/>
+			<Item Name="PlaceNewTarget.vi" Type="VI" URL="../Support/PlaceNewTarget.vi"/>
 			<Item Name="TestMetronome.vi" Type="VI" URL="../Support/TestMetronome.vi"/>
 		</Item>
 		<Item Name="TypeDef" Type="Folder">
 			<Item Name="display.ctl" Type="VI" URL="../TypeDef/display.ctl"/>
+			<Item Name="game-data.ctl" Type="VI" URL="../TypeDef/game-data.ctl"/>
 			<Item Name="tiles-key.ctl" Type="VI" URL="../TypeDef/tiles-key.ctl"/>
 			<Item Name="tiles.ctl" Type="VI" URL="../TypeDef/tiles.ctl"/>
 		</Item>
@@ -29,6 +32,11 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Random Number (Range) DBL.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) DBL.vi"/>
+				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) I64.vi"/>
+				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
+				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
+				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
