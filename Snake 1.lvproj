@@ -22,6 +22,7 @@
 			<Item Name="Metronome.vi" Type="VI" URL="../Support/Metronome.vi"/>
 			<Item Name="MetronomeData.ctl" Type="VI" URL="../Support/MetronomeData.ctl"/>
 			<Item Name="MoveHead.vi" Type="VI" URL="../Support/MoveHead.vi"/>
+			<Item Name="MoveTail.vi" Type="VI" URL="../Support/MoveTail.vi"/>
 			<Item Name="PlaceNewTarget.vi" Type="VI" URL="../Support/PlaceNewTarget.vi"/>
 			<Item Name="PlaceSnake.vi" Type="VI" URL="../Support/PlaceSnake.vi"/>
 			<Item Name="TestMetronome.vi" Type="VI" URL="../Support/TestMetronome.vi"/>
