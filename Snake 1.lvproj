@@ -14,19 +14,24 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Support" Type="Folder">
+			<Item Name="CheckCollisions.vi" Type="VI" URL="../Support/CheckCollisions.vi"/>
 			<Item Name="CreateEventOnError.vi" Type="VI" URL="../Support/CreateEventOnError.vi"/>
 			<Item Name="CreateNewGameBoard.vi" Type="VI" URL="../Support/CreateNewGameBoard.vi"/>
+			<Item Name="DeadSnake.vi" Type="VI" URL="../Support/DeadSnake.vi"/>
 			<Item Name="MessageQueue.lvlib" Type="Library" URL="../Support/MessageQueue/MessageQueue.lvlib"/>
 			<Item Name="Metronome.vi" Type="VI" URL="../Support/Metronome.vi"/>
 			<Item Name="MetronomeData.ctl" Type="VI" URL="../Support/MetronomeData.ctl"/>
+			<Item Name="MoveHead.vi" Type="VI" URL="../Support/MoveHead.vi"/>
 			<Item Name="PlaceNewTarget.vi" Type="VI" URL="../Support/PlaceNewTarget.vi"/>
 			<Item Name="PlaceSnake.vi" Type="VI" URL="../Support/PlaceSnake.vi"/>
 			<Item Name="TestMetronome.vi" Type="VI" URL="../Support/TestMetronome.vi"/>
 		</Item>
 		<Item Name="TypeDef" Type="Folder">
 			<Item Name="board-type.ctl" Type="VI" URL="../TypeDef/board-type.ctl"/>
+			<Item Name="direction.ctl" Type="VI" URL="../TypeDef/direction.ctl"/>
 			<Item Name="display.ctl" Type="VI" URL="../TypeDef/display.ctl"/>
 			<Item Name="game-data.ctl" Type="VI" URL="../TypeDef/game-data.ctl"/>
+			<Item Name="next-cell-action.ctl" Type="VI" URL="../TypeDef/next-cell-action.ctl"/>
 			<Item Name="tiles-key.ctl" Type="VI" URL="../TypeDef/tiles-key.ctl"/>
 			<Item Name="tiles.ctl" Type="VI" URL="../TypeDef/tiles.ctl"/>
 		</Item>
