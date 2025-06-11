@@ -36,6 +36,7 @@
 			<Item Name="tiles-key.ctl" Type="VI" URL="../TypeDef/tiles-key.ctl"/>
 			<Item Name="tiles.ctl" Type="VI" URL="../TypeDef/tiles.ctl"/>
 		</Item>
+		<Item Name="DirectionChange.vi" Type="VI" URL="../Support/DirectionChange.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="Play.vi" Type="VI" URL="../Play.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
