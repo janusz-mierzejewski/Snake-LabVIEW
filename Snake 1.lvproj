@@ -15,9 +15,13 @@
 		</Item>
 		<Item Name="Support" Type="Folder">
 			<Item Name="CheckCollisions.vi" Type="VI" URL="../Support/CheckCollisions.vi"/>
+			<Item Name="CheckGameBoard.vi" Type="VI" URL="../Support/CheckGameBoard.vi"/>
+			<Item Name="CheckGameBoardQueueLogic.vi" Type="VI" URL="../Support/CheckGameBoardQueueLogic.vi"/>
 			<Item Name="CreateEventOnError.vi" Type="VI" URL="../Support/CreateEventOnError.vi"/>
 			<Item Name="CreateNewGameBoard.vi" Type="VI" URL="../Support/CreateNewGameBoard.vi"/>
 			<Item Name="DeadSnake.vi" Type="VI" URL="../Support/DeadSnake.vi"/>
+			<Item Name="DirectionChange.vi" Type="VI" URL="../Support/DirectionChange.vi"/>
+			<Item Name="MakeBox.vi" Type="VI" URL="../Support/MakeBox.vi"/>
 			<Item Name="MessageQueue.lvlib" Type="Library" URL="../Support/MessageQueue/MessageQueue.lvlib"/>
 			<Item Name="Metronome.vi" Type="VI" URL="../Support/Metronome.vi"/>
 			<Item Name="MetronomeData.ctl" Type="VI" URL="../Support/MetronomeData.ctl"/>
@@ -33,10 +37,12 @@
 			<Item Name="display.ctl" Type="VI" URL="../TypeDef/display.ctl"/>
 			<Item Name="game-data.ctl" Type="VI" URL="../TypeDef/game-data.ctl"/>
 			<Item Name="next-cell-action.ctl" Type="VI" URL="../TypeDef/next-cell-action.ctl"/>
+			<Item Name="tiles-key-trunct.ctl" Type="VI" URL="../TypeDef/tiles-key-trunct.ctl"/>
 			<Item Name="tiles-key.ctl" Type="VI" URL="../TypeDef/tiles-key.ctl"/>
+			<Item Name="tiles-trunct.ctl" Type="VI" URL="../TypeDef/tiles-trunct.ctl"/>
 			<Item Name="tiles.ctl" Type="VI" URL="../TypeDef/tiles.ctl"/>
 		</Item>
-		<Item Name="DirectionChange.vi" Type="VI" URL="../Support/DirectionChange.vi"/>
+		<Item Name="Editor.vi" Type="VI" URL="../Editor.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="Play.vi" Type="VI" URL="../Play.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
