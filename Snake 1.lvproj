@@ -16,7 +16,9 @@
 		<Item Name="Support" Type="Folder">
 			<Item Name="CheckCollisions.vi" Type="VI" URL="../Support/CheckCollisions.vi"/>
 			<Item Name="CheckGameBoard.vi" Type="VI" URL="../Support/CheckGameBoard.vi"/>
+			<Item Name="CheckGameBoardGetNeighbours.vi" Type="VI" URL="../Support/CheckGameBoardGetNeighbours.vi"/>
 			<Item Name="CheckGameBoardQueueLogic.vi" Type="VI" URL="../Support/CheckGameBoardQueueLogic.vi"/>
+			<Item Name="CheckGameBoardSearchLogic.vi" Type="VI" URL="../Support/CheckGameBoardSearchLogic.vi"/>
 			<Item Name="CreateEventOnError.vi" Type="VI" URL="../Support/CreateEventOnError.vi"/>
 			<Item Name="CreateNewGameBoard.vi" Type="VI" URL="../Support/CreateNewGameBoard.vi"/>
 			<Item Name="DeadSnake.vi" Type="VI" URL="../Support/DeadSnake.vi"/>
