@@ -21,10 +21,14 @@
 			<Item Name="CheckGameBoardGetNeighbours.vi" Type="VI" URL="../Support/CheckGameBoardGetNeighbours.vi"/>
 			<Item Name="CheckGameBoardQueueLogic.vi" Type="VI" URL="../Support/CheckGameBoardQueueLogic.vi"/>
 			<Item Name="CheckGameBoardSearchLogic.vi" Type="VI" URL="../Support/CheckGameBoardSearchLogic.vi"/>
+			<Item Name="CheckGameBoardSnakeCheck.vi" Type="VI" URL="../Support/CheckGameBoardSnakeCheck.vi"/>
+			<Item Name="CheckNextSnakeTile.vi" Type="VI" URL="../Support/CheckNextSnakeTile.vi"/>
 			<Item Name="CreateEventOnError.vi" Type="VI" URL="../Support/CreateEventOnError.vi"/>
 			<Item Name="CreateNewGameBoard.vi" Type="VI" URL="../Support/CreateNewGameBoard.vi"/>
 			<Item Name="DeadSnake.vi" Type="VI" URL="../Support/DeadSnake.vi"/>
 			<Item Name="DirectionChange.vi" Type="VI" URL="../Support/DirectionChange.vi"/>
+			<Item Name="GetDirectionOfSnakePart.vi" Type="VI" URL="../Support/GetDirectionOfSnakePart.vi"/>
+			<Item Name="GetNewPosition.vi" Type="VI" URL="../Support/GetNewPosition.vi"/>
 			<Item Name="MakeBox.vi" Type="VI" URL="../Support/MakeBox.vi"/>
 			<Item Name="MessageQueue.lvlib" Type="Library" URL="../Support/MessageQueue/MessageQueue.lvlib"/>
 			<Item Name="Metronome.vi" Type="VI" URL="../Support/Metronome.vi"/>
@@ -33,6 +37,7 @@
 			<Item Name="MoveTail.vi" Type="VI" URL="../Support/MoveTail.vi"/>
 			<Item Name="PlaceNewTarget.vi" Type="VI" URL="../Support/PlaceNewTarget.vi"/>
 			<Item Name="PlaceSnake.vi" Type="VI" URL="../Support/PlaceSnake.vi"/>
+			<Item Name="PreliminarySnakeCheck.vi" Type="VI" URL="../Support/PreliminarySnakeCheck.vi"/>
 			<Item Name="TestMetronome.vi" Type="VI" URL="../Support/TestMetronome.vi"/>
 		</Item>
 		<Item Name="TypeDef" Type="Folder">
@@ -56,6 +61,7 @@
 				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) I64.vi"/>
 				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
 				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
+				<Item Name="Set Union.vim" Type="VI" URL="/&lt;vilib&gt;/set operations/Set Union.vim"/>
 				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
 			</Item>
 		</Item>
