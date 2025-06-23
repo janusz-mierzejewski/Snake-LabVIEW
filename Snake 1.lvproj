@@ -28,6 +28,7 @@
 			<Item Name="DeadSnake.vi" Type="VI" URL="../Support/DeadSnake.vi"/>
 			<Item Name="DirectionChange.vi" Type="VI" URL="../Support/DirectionChange.vi"/>
 			<Item Name="EditorFillOrDropRows.vi" Type="VI" URL="../Support/EditorFillOrDropRows.vi"/>
+			<Item Name="EditorUndoRedoAction.vi" Type="VI" URL="../Support/EditorUndoRedoAction.vi"/>
 			<Item Name="GetDirectionOfSnakePart.vi" Type="VI" URL="../Support/GetDirectionOfSnakePart.vi"/>
 			<Item Name="GetNewPosition.vi" Type="VI" URL="../Support/GetNewPosition.vi"/>
 			<Item Name="MakeBox.vi" Type="VI" URL="../Support/MakeBox.vi"/>
@@ -47,6 +48,9 @@
 			<Item Name="direction.ctl" Type="VI" URL="../TypeDef/direction.ctl"/>
 			<Item Name="display-trunct.ctl" Type="VI" URL="../TypeDef/display-trunct.ctl"/>
 			<Item Name="display.ctl" Type="VI" URL="../TypeDef/display.ctl"/>
+			<Item Name="editor-replace-payload.ctl" Type="VI" URL="../TypeDef/editor-replace-payload.ctl"/>
+			<Item Name="editor-resize-payload.ctl" Type="VI" URL="../TypeDef/editor-resize-payload.ctl"/>
+			<Item Name="EditorUndoRedoCluster.ctl" Type="VI" URL="../TypeDef/EditorUndoRedoCluster.ctl"/>
 			<Item Name="game-data.ctl" Type="VI" URL="../TypeDef/game-data.ctl"/>
 			<Item Name="next-cell-action.ctl" Type="VI" URL="../TypeDef/next-cell-action.ctl"/>
 			<Item Name="tiles-key-trunct.ctl" Type="VI" URL="../TypeDef/tiles-key-trunct.ctl"/>
