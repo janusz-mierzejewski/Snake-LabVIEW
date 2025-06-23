@@ -28,7 +28,9 @@
 			<Item Name="DeadSnake.vi" Type="VI" URL="../Support/DeadSnake.vi"/>
 			<Item Name="DirectionChange.vi" Type="VI" URL="../Support/DirectionChange.vi"/>
 			<Item Name="EditorFillOrDropRows.vi" Type="VI" URL="../Support/EditorFillOrDropRows.vi"/>
+			<Item Name="EditorMousePositionOverArray.vi" Type="VI" URL="../Support/EditorMousePositionOverArray.vi"/>
 			<Item Name="EditorUndoRedoAction.vi" Type="VI" URL="../Support/EditorUndoRedoAction.vi"/>
+			<Item Name="EditorUndoRedoNewItem.vi" Type="VI" URL="../Support/EditorUndoRedoNewItem.vi"/>
 			<Item Name="GetDirectionOfSnakePart.vi" Type="VI" URL="../Support/GetDirectionOfSnakePart.vi"/>
 			<Item Name="GetNewPosition.vi" Type="VI" URL="../Support/GetNewPosition.vi"/>
 			<Item Name="MakeBox.vi" Type="VI" URL="../Support/MakeBox.vi"/>
@@ -71,6 +73,9 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
+				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
+				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
