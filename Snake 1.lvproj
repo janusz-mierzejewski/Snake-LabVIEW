@@ -31,6 +31,7 @@
 			<Item Name="EditorMousePositionOverArray.vi" Type="VI" URL="../Support/EditorMousePositionOverArray.vi"/>
 			<Item Name="EditorUndoRedoAction.vi" Type="VI" URL="../Support/EditorUndoRedoAction.vi"/>
 			<Item Name="EditorUndoRedoNewItem.vi" Type="VI" URL="../Support/EditorUndoRedoNewItem.vi"/>
+			<Item Name="GameSettings.vi" Type="VI" URL="../Support/GameSettings.vi"/>
 			<Item Name="GetDirectionOfSnakePart.vi" Type="VI" URL="../Support/GetDirectionOfSnakePart.vi"/>
 			<Item Name="GetNewPosition.vi" Type="VI" URL="../Support/GetNewPosition.vi"/>
 			<Item Name="MakeBox.vi" Type="VI" URL="../Support/MakeBox.vi"/>
@@ -54,6 +55,7 @@
 			<Item Name="editor-resize-payload.ctl" Type="VI" URL="../TypeDef/editor-resize-payload.ctl"/>
 			<Item Name="EditorUndoRedoCluster.ctl" Type="VI" URL="../TypeDef/EditorUndoRedoCluster.ctl"/>
 			<Item Name="game-data.ctl" Type="VI" URL="../TypeDef/game-data.ctl"/>
+			<Item Name="main-data.ctl" Type="VI" URL="../TypeDef/main-data.ctl"/>
 			<Item Name="next-cell-action.ctl" Type="VI" URL="../TypeDef/next-cell-action.ctl"/>
 			<Item Name="tiles-key-trunct.ctl" Type="VI" URL="../TypeDef/tiles-key-trunct.ctl"/>
 			<Item Name="tiles-key.ctl" Type="VI" URL="../TypeDef/tiles-key.ctl"/>
