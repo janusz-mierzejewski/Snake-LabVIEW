@@ -41,6 +41,7 @@
 			<Item Name="MoveHead.vi" Type="VI" URL="../Support/MoveHead.vi"/>
 			<Item Name="MoveTail.vi" Type="VI" URL="../Support/MoveTail.vi"/>
 			<Item Name="PlaceNewTarget.vi" Type="VI" URL="../Support/PlaceNewTarget.vi"/>
+			<Item Name="PlaceRandomSnake.vi" Type="VI" URL="../Support/PlaceRandomSnake.vi"/>
 			<Item Name="PlaceSnake.vi" Type="VI" URL="../Support/PlaceSnake.vi"/>
 			<Item Name="PreliminarySnakeCheck.vi" Type="VI" URL="../Support/PreliminarySnakeCheck.vi"/>
 			<Item Name="SaveLoadGameBoard.vi" Type="VI" URL="../Support/SaveLoadGameBoard.vi"/>
